@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(135deg, white, blue) no-repeat;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.para
+{
+    text-align: center;
+    font-size: 3em;
+    margin-top: 10px;
+    color: gray;
+}
+
+.card{
+  width: 90%;
+  max-width: 470px;  
+  background: linear-gradient(135deg, #fffffe, #193587);
+  color: #fff;
+  margin: 50px auto 0;
+  border-radius: 20px;
+  padding: 35px 35px;
+  text-align: center;
+}
+
+.card:hover
+{
+    box-shadow: 0px 0px 30px 0px rgb(11, 34, 76);
+
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #000000;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 80px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search input:hover{
+    box-shadow: 0px 0px 30px 0px  #1215ce;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button:hover
+{
+    box-shadow: 0px 0px 30px 0px #1215ce;
+}
+
+
+.search button img{
+    width: 16px;
+}
+
+.date
+{
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+    text-align: center;
+    display: none;
+}
+
+
+.weather-icon{
+    width: 170px;
+    margin-top: -30px;
+}
+
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.weather
+{
+    display: none;
+}
+
+.error
+{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+    color: red;
+}
+
